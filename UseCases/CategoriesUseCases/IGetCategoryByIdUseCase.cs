@@ -4,6 +4,7 @@ namespace UseCases
 {
     public interface IGetCategoryByIdUseCase
     {
-        Category Execute(int categoryId);
+        Product Execute(int categoryId);
+       // Product Execute(int categoryId);
     }
 }

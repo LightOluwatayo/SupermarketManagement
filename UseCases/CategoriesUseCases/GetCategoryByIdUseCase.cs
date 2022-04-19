@@ -24,5 +24,10 @@ namespace UseCases
             return categoryRepository.GetCategoryById(categoryId);
 
         }
+
+        Product IGetCategoryByIdUseCase.Execute(int categoryId)
+        {
+            throw new NotImplementedException();
+        }
     }
 }
